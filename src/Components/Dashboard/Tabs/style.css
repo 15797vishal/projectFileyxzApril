@@ -1,0 +1,17 @@
+.gridflex{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+   margin: 1.5rem 2rem; 
+   color: white;
+}
+
+.tablerowtabs{
+   width: 94%; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+}

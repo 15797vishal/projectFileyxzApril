@@ -1,0 +1,88 @@
+.listrow{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 1.5rem;
+    margin: 1rem; 
+    border-radius: 0.3rem;
+    text-decoration: fixed;
+} 
+.listrow:hover{
+background-color: #605a5a;
+transition: all 0.3s;
+} 
+
+.td_image{
+   width: 3rem !important;
+   gap: 0.2rem;
+} 
+.td-right-align{
+    text-align: right;
+
+} 
+.td-center-align{
+    text-align: left;
+    
+} 
+ .iconchip{
+ border: 2px solid red;
+ } 
+ .chip_up{
+    border: 2px solid rgb(37, 163, 37);
+    border-radius: 2rem solid rgb(35, 225, 35);
+ } 
+ .chip_red{
+    border: 2px solid rgb(163, 37, 54);
+    border-radius: 2rem solid rgb(225, 35, 35); 
+    color: red;
+ }
+ .td_right_align{
+    text-align: center;
+ } 
+ .td_center_align{
+    text-align: center;
+ }
+ .coin_symbol{
+    display: flex; 
+   gap: 1rem;
+ }
+ .chipflex{
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+ }
+ 
+
+
+ @media only screen and(max-width:1000) {
+    .td-icon{
+        display: none;
+    }
+ } 
+
+ @media only screen and(max-width:1000) {
+    .td-total-volume{
+       display: none;
+    }
+
+ }    
+
+
+ .mobile-td-mkt{
+    display: none;
+
+ }
+ 
+ @media only screen and(max-width:800) {
+    .desktop-td-mkt{
+        display: none;
+    
+     } 
+
+     .mobile-td-mkt{
+        display: none;
+    
+     }
+ }   
+
+ 

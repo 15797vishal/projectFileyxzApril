@@ -1,0 +1,23 @@
+.coinInfohead{
+    padding-bottom: 1rem;
+    cursor: pointer;
+      
+} 
+.coinInfoDesc{
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+span{
+    color: rgb(125, 125, 162) !important;
+}
+
+.coinInfoDesc a{
+    color:blue ;
+    text-decoration: underline;
+}
+
+.coinInfoDesc a :hover{
+    color: blue;
+    
+}

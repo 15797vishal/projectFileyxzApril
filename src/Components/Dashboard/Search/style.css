@@ -1,0 +1,16 @@
+.searchflex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.2rem;
+    color: rgb(241, 227, 227);
+    padding-left: 20px; 
+    font-size: 1.5rem;
+} 
+ .searchflex input{
+    background-color: transparent;
+    width: 40%;
+    font-size: 1.2rem;
+    border:none; 
+    color: rgb(163, 130, 130); 
+}

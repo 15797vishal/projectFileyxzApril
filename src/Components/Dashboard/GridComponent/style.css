@@ -1,0 +1,108 @@
+.gridcontainer{
+width: 270px;
+background-color:transparent;
+border: 2px ;
+height: 300px;
+padding-left: 10px;
+border-radius: 2rem solid rgb(220, 35, 35);
+} 
+.gridcontainer:hover{
+ border-radius: 200px solid red; 
+ border: 2px solid red;
+}
+.infoflex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+.coinlogo{
+    height: 3.4rem;
+    width: 3.8rem;
+}  
+
+.coin_symbol{
+text-transform: uppercase;
+font-weight: 400; 
+font-size: 1.1rem;
+margin: 0; 
+color: white;
+}
+.coin_name{
+   color: rgb(145, 132, 132);
+    font-weight: 400; 
+    font-size: 1.2rem;
+    margin: 0; 
+    
+}
+
+.chipflex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;  
+}
+ .pricechip{
+    border: 2px solid rgb(6, 247, 42);
+    border-radius: 3rem;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    background-color:transparent; 
+    font-weight: 600;
+    color: greenyellow;
+    min-width: 60px;
+    /*  whwen value more in point so  */
+ }
+ 
+ .pricechip:hover{
+    background-color: rgb(24, 232, 24);
+    color: rgb(246, 248, 246);
+    transition: all .4s;
+ }
+ 
+ .chip-red:hover {
+    color: rgb(242, 242, 241);
+    background-color: rgb(128, 0, 0);
+    transition: all .4s;
+ }
+
+ 
+.chip-red{
+    border: 2px solid rgb(128, 0, 17);
+   color: red;
+}
+
+.iconchip{
+    border: 0.1rem solid rgb(86, 173, 138);
+    border-radius: 5rem solid rgb(105, 182, 105);
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600; 
+    color: rgb(7, 250, 88); 
+    border-color: rgb(0, 255, 191);
+} 
+.chip-up{
+    color: rgb(20, 210, 20) !important; 
+    border-radius: 3rem solid green !important;
+}
+
+.icon-chip-red{
+    color: rgb(252, 9, 102); 
+    border: 2px solid red; 
+    border-radius: 3px solid red;
+}
+
+.chip-red{
+    border: 2px solid red !important;
+    color:  red !important;
+}
+.infocontainer{
+    color: rgb(244, 249, 244);
+    font-size: 1rem;
+    font-weight: 500;
+
+}

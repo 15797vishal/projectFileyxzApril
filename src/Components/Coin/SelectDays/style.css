@@ -1,0 +1,12 @@
+.selectDays{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.6rem; 
+    padding: 0rem .9rem;
+}
+
+.greywrapper{
+    padding: 0rem 1rem;
+
+}
